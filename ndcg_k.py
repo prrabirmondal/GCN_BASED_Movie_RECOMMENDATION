@@ -1,3 +1,5 @@
+## it generates the ndcg value for a particular K
+
 import re
 from pip import main
 from requests import delete

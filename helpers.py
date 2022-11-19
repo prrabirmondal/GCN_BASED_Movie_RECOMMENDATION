@@ -50,7 +50,6 @@ def get_rand_str(size):
     return "".join(random.choice(string.ascii_uppercase + string.digits) for _ in range(size))
 
 def save_model(keras_model, save_folder="./models", save_filename= None):
-# def save_model(keras_model, save_folder="/home/sriram_1801cs37/prabir/GCN/models", save_filename= None):
     if save_filename is None:
         me_dir, me_file= os.path.split(os.path.abspath(__file__))
         save_filename= me_file.split(".")[0]+".h5"
