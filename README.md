@@ -1,5 +1,6 @@
 # GCN_BASED_Movie_RECOMMENDATION
 Graph Convolution Network Based Movie Recommendation System
+Get the [paper](https://dl.acm.org/doi/pdf/10.1145/3555776.3577853)
 
 ## FILES DETAILS:
 
